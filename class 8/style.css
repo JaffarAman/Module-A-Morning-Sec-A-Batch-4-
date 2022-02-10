@@ -1,0 +1,65 @@
+/* h1{
+    background-color: red;
+    color: white;
+}
+
+h2{
+    background-color: red;
+    color: white;
+
+}
+h3{
+    color: white;
+    background-color: red;
+} */
+
+/* h1 , h3{
+    background-color: purple;
+    color: white;
+} */
+
+
+
+
+/* *{
+    color: red;
+    background-color: black;
+} */
+
+/* type selector */
+/* ul{
+    color: red;
+}
+p{
+    color: purple;
+} */
+
+
+/* id selector */
+
+/* p{
+    color: red;
+} */
+
+#para1{
+    color: red;
+}
+
+#para2{
+    color: purple;
+}
+
+
+#li1 , #li2 , #li3{
+    color: red;
+}
+
+/* ///class selector// */
+
+.li1{
+    color: yellowgreen;
+}
+
+
+
+

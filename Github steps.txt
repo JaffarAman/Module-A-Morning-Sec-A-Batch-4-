@@ -1,0 +1,21 @@
+GIT -> Distributive Version Control System
+
+1) Visit git-scm.com
+2) Download and install
+
+3) Initialize your directory with Git
+	$git init
+4) To check status
+	$ git status
+5) To make your files under supervision of git, Use
+	$ git add -A
+6) git config --global user.name "Muhammad Ali Mughal"
+     git config --global user.email "abc@xyz.com"
+7) to store code, use,
+	$git commit -m ""
+8) Create account on github.com
+9) Create repo to remote
+10) Connect local repo with remote using
+	$git remote add origin master <link>
+11) Push your local code to remote
+	$ git push -u origin master

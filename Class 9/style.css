@@ -1,0 +1,109 @@
+/* h1 , h2 {
+    background-color: red;
+    color: white;
+} */
+
+/* *{
+    color: red  ;   
+} */
+ 
+
+
+/* ///id // */
+
+/* #heading2{
+    background-color: pink;
+} */
+
+/* #li2{
+    background-color: pink;
+} */
+
+/* //// class ///  */
+
+/* .li{
+    background-color: brown;
+} */
+
+/* #heading2 , .li {
+        color: white;
+} */
+
+
+/* h1.myClass{
+    background-color: purple;
+} */
+
+
+
+/* .para{
+    color: red;
+}
+
+.para > span{
+    color: pink;
+    background-color: purple;
+} */
+
+/* .para > b {
+        color: black;
+} */
+
+/* .para b{
+    color: black;
+}
+
+
+.myDiv  b{
+    color: red;
+}
+
+.list~p{
+    color: red;
+} */
+
+/* *{
+    color: black;
+} */
+
+/* #p1{
+    color: royalblue ;
+}
+
+
+.para{
+    color: yellow;
+}
+
+.para{
+    color: purple !important;
+}
+
+p{
+    color: red;
+} */
+
+
+.para{
+    /* color: black ; */
+    /* background-color: rgba(103, 58, 183, 0.5); */
+    /* background-color: #673AB7; */
+    /* opacity: 0.5; */
+
+}
+
+
+.para3{
+    /* opacity: 0; */
+    /* background-color: rgba(255, 0, 255 , 0.2); */
+    /* background-color: hsl( 0 ,0%,78%); */
+}
+
+
+
+
+.para{
+    color: #EB0A1E;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

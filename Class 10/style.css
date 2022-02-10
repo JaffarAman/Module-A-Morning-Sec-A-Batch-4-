@@ -1,0 +1,119 @@
+h1{
+    background-color: red;   
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    /* font-weight: bold; */
+}
+
+.para  span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text{
+
+    text-transform: lowercase;
+    /* text-transform:capitalize; */
+    text-decoration: underline  blue;
+    /* text-decoration:  dotted blue; */
+}
+a{
+    text-decoration: none;
+}
+
+/* .p1{
+    line-height: 2rem;
+    word-spacing: 1rem;
+} */
+
+/* .p1 span{
+    letter-spacing: 2rem;
+} */
+
+
+.center{
+    background-color: royalblue;
+    text-align: center;
+}
+
+.p1{
+    /* text-align: justify; */
+    text-indent: 10rem;
+}
+
+
+h1{
+    background-color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px red ;   
+}
+
+
+.p1 span{
+    /* text-shadow: 3px -2px 5px  blue  ; */
+    /* color: red; */
+
+}
+
+.p1::first-line {
+    color: yellow;
+    font-size: 35px;
+}
+
+/* 
+.myDiv a:hover{
+    color: red;
+    text-decoration: underline;
+} */
+/* a{
+    color: black;
+}
+.myDiv a:visited{
+    color: blue;
+}
+
+.myDiv a:active{
+    color: saddlebrown;
+} */
+
+/* img:hover{
+    width: 150px;
+} */
+
+/* input{
+    background-color: gray;
+}
+
+input:focus{
+    background-color: red;
+}
+
+input::placeholder{
+    color: white;
+    font-size: small;
+    font-family: monospace;
+} */
+
+
+
+html{
+    border: 2px solid red;
+}
+
+.myDiv{
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.myDiv p{
+    background-color: red;
+}

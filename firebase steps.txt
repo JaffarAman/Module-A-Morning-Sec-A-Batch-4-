@@ -1,0 +1,17 @@
+1) Goto firebase.google.com
+2) Goto Console
+3) Login using gmail
+4) Create a project
+5)Goto nodejs.org
+6) Download and install Node
+7) Open cmd as administrator
+8) Check node using $node -v
+9) Check npm using $npm -v
+10) Install firebase using $npm install --global firebase-tools
+11) Check firebase using firebase -v
+12) firebase login
+13) Goto your web base directory
+14) firebase init
+15) Select existing project / Create new project
+16) Shift your files in public directory
+17) firebase deploy
