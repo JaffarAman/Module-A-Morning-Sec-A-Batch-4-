@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+.headerLinks {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.headerLinks ul {
+  display: flex;
+  margin: 0 10px;
+  color: #65735b;
+}
+
+.headerLinks ul li {
+  font-size: medium;
+  margin: 0 5px;
+}
+
+.headerBtn {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.searchBtn {
+  padding: 8px;
+  /* border: 1px solid blue; */
+  border-radius: 50%;
+  margin: 0 10px;
+  color: #14a800;
+  background-color: lightgray;
+}
+
+.authBtn button {
+  color: #65735b;
+  border: none;
+  background-color: transparent;
+  width: 80px;
+}
+.signUpBtn {
+  background-color: #14a800 !important;
+  padding: 8px;
+  border-radius: 15px;
+  color: white !important;
+  width: 120px !important;
+  padding: 10px;
+}
+
+.extranavlinks {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.extranavlinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.extranavlinks li {
+  margin: 10px;
+  color: #65735b;
+}
+.extranavlinks li:hover {
+  color: #14a800;
+  cursor: pointer;
+}
+
+.topIntro {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.introContent {
+  width: 50%;
+}
+.content {
+  margin: 20px 0;
+}
+.content h1 {
+  font-size: 55px;
+  color: #14a800;
+}
+.content h3 {
+  color: #65735b;
+  margin-top: 10px;
+  /* font-size: 25px; */
+}
+
+.topImg {
+  width: 30%;
+}
+
+.topBtn {
+  margin: 20px 0;
+}
+
+.topBtn button {
+  width: 120px;
+  padding: 12px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid #14a800;
+  outline: none;
+  cursor: pointer;
+}
+.topBtn1 {
+  background-color: #14a800 !important;
+  color: white;
+  transition: all 0.6s ease;
+  border: none !important;
+}
+.topBtn1:hover {
+  background-color: #65735b !important;
+}
+
+.logos {
+  margin-top: 50px;
+}
+.logos p {
+  color: #65735b;
+}
+
+.bannerOne {
+  margin: 50px 0;
+  width: 100%;
+  background-image: url("img/find-talent.06d34b1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 25px;
+}
+.bannerOne .para {
+  color: white;
+  margin: 15px 0;
+  font-size: 25px;
+}
+.bannerOne .bannerContent {
+  /* border: 1px solid red; */
+  width: 50%;
+  color: white;
+  margin: 50px 0;
+}
+.bannerOne .bannerContent h1 {
+  font-size: 50px;
+}
+.bannerOne .bannerContent p {
+  font-size: large;
+}
+
+.bannerOneCards {
+  width: 100%;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bannerOneCards div {
+  height: 160px;
+  background-color: #14a800;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  margin: 10px;
+}
+.bannerOneCards div p {
+  font-size: large;
+}
+
+.bannerOneCards div:hover {
+  background-color: white;
+  color: #14a800 !important;
+}
+
+@media only screen and (max-width: 570px) {
+  .headerLinks ul li {
+    font-size: small;
+  }
+  .headerLinks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .topImg {
+    width: 50%;
+  }
+  .topIntro {
+    padding: 15px;
+  }
+  .bannerOneCards div {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .topImg {
+    display: none;
+  }
+  .introContent {
+    width: 100%;
+    padding: 15px;
+  }
+  .logos {
+    text-align: center;
+  }
+}

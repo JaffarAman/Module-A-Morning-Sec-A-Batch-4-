@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box1 {
+  background-color: grey;
+  /* position: relative; */
+  /* top: 0; */
+  bottom: 30px;
+  right: 50px;
+  /* left: 0; */
+  position: absolute;
+  /* width: 250px; */
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+.box2 {
+  background-color: purple;
+}
+
+.box3 {
+  background-color: aqua;
+}
+
+.box10 {
+  border: 1px solid red;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.box10 p {
+  background-color: aqua;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.fixed {
+  background-color: rosybrown;
+  /* position: sticky; */
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.box20 {
+  background-color: rgba(255, 0, 0, 1);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+.box30 {
+  background-color: rgba(0, 255, 0, 0.5);
+  width: 200px;
+  height: 200px;
+  margin-top: -50px;
+}
+.para {
+  background-color: red;
+  z-index: 1;
+  position: relative;
+}
+
+.box50 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  float: left;
+  opacity: 0.3;
+}
+
+.box100 {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.box110 {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  clear: both;
+}
+
+.bgImg {
+  width: 50%;
+  min-height: 400px;
+  background-color: red;
+  /* background-image: url("img/photo-1552519507-da3b142c6e3d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+  /* background-attachment: fixed; */
+  background-image: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+}
+
+li {
+  list-style: none;
+}
+.mainBox {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.mainBox ul {
+  /* border: 5px solid green; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mainBox ul li {
+  display: inline-block;
+}
+
+.navbarBox {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.navbarBox ul {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.navbarBox ul li {
+  display: inline-block;
+  /* border: 1px solid green; */
+  padding: 15px;
+  transition: all 0.6s ease;
+}
+
+.navbarBox ul li img {
+  display: block;
+}
+
+.li1 {
+  border-bottom: 3px solid red;
+}
+.li1:hover {
+  background-color: red;
+}
+.li2 {
+  border-bottom: 3px solid orange;
+}
