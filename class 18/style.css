@@ -1,0 +1,20 @@
+/* #5cb85c */
+
+.myDropDown a:hover {
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* .coursesSection  , .cardBox{
+  border: 2px solid red;
+} */
+
+/* .cardBox>div{
+    border: 1px solid green;
+} */
+
+@media only screen and (max-width: 476px) {
+  .mySlider img {
+    height: 300px !important;
+  }
+}

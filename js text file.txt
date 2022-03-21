@@ -1,0 +1,14 @@
+Arithmetic Operators
++ ... - ... * ... / ... %
+
+
+Assignment Operators
+=  (for assigning value to a variable)
+ 
+
+Comparison Operators
+== (equal value)
+=== (equal value and equal data-type)
+
+
+Logical Operators
