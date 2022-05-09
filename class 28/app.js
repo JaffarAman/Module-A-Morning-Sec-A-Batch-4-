@@ -66,4 +66,4 @@ console.log(para);
 
 var num = 251.22456321465;
 
-console.log(num.toFixed(3));
+console.log( num.toFixed(3));
