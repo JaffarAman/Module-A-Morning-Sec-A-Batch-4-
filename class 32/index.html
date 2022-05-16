@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- 
+    <button onclick="foo()">CLICK</button> -->
+
+    <!-- <a href="javascript:void(0)" onclick="foo()">CLICK</a> -->
+
+    <!-- 
+    <input type="text" value="" id="userinput" placeholder="ENTER YOUR NAME...">
+
+    <br>
+    <br>
+    <button onclick="getValue()">GET VALUE</button>
+    <button onclick="setValue()">SET VALUE</button>
+
+    <img src="http://assets.stickpng.com/images/586383c67d90850fc3ce2914.png" onclick="foo()" width="200" height="200"
+        alt=""> -->
+
+
+
+    <!-- <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        id="carImg" onmouseover="imgChange()" onmouseout="mouseOut()" width="150" height="150" alt=""> -->
+    <!-- 
+    <img src="car1.jpg" id="carImg" onmouseover="imgChange('car1')" onmouseout="imgChange('car2')" alt="" width="150"
+        height="150" /> -->
+
+
+    <!-- <img src="car1.jpg" onmouseover="imgChange( this , 'car1')" onmouseout="imgChange(this, 'car2')" alt="" width="150"
+        height="150" />
+    <button onclick="foo(this)">CLICK</button> -->
+
+    <!-- <input type="text" placeholder="ENTER YOUR NAME" onblur="changeColor(this , 'blur')"
+        onfocus="changeColor(this , 'focus')">
+ -->
+
+
+
+    <!-- ///CALCULATOR APP/// -->
+
+
+    <div class="w-100  my-5 d-flex justify-content-center ">
+        <input id="input" type="text" class="border w-75 p-3 mx-auto" placeholder="ENTER NUMBER">
+    </div>
+    <div class="w-100 d-flex justify-content-center">
+        <table class="w-75" border="1">
+            <tr>
+                <td onclick="getValue('-')">-</td>
+                <td onclick="getValue('*')">*</td>
+                <td onclick="getValue('/')">/</td>
+                <td onclick="getValue('+')" rowspan="5">+</td>
+            </tr>
+            <tr>
+                <td onclick="getValue('7')">7</td>
+                <td onclick="getValue('8')">8</td>
+                <td onclick="getValue('9')">9</td>
+            </tr>
+            <tr>
+                <td onclick="getValue('4')">4</td>
+                <td onclick="getValue('5')">5</td>
+                <td onclick="getValue('6')">6</td>
+            </tr>
+            <tr>
+                <td onclick="getValue('1')">1</td>
+                <td onclick="getValue('2')">2</td>
+                <td onclick="getValue('3')">3</td>
+            </tr>
+            <tr>
+                <td onclick="getValue('0')" colspan="">0</td>
+                <td onclick="totalValue()" colspan="">=</td>
+                <td onclick="allClear()" colspan="">AC</td>
+                <td onclick="valueRemove()" colspan="">C</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>

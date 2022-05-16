@@ -84,4 +84,9 @@ function imgChange() {
   var carimg = document.getElementById("carimg");
 
   carimg.src = "./img/car2.jpg";
+
+if(carimg.src == './img/car2.jpg' ){
+    carimg.src 
+}
+
 }
