@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <style>
+        li {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 15px 8px;
+            border-radius: 8px;
+            font-size: 25px;
+            font-family: monospace;
+            list-style: none;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        li button {
+            display: inline-block;
+            margin-left: auto !important;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container my-5">
+        <h1>TODO APP</h1>
+        <input id="input" class="form-control form-control-lg" type="text" placeholder="ENTER TODO"
+            aria-label=".form-control-lg example">
+        <div class="my-3">
+            <button class="btn btn-primary" onclick="addTodo()">ADD TODO</button>
+            <button class="btn btn-danger " onclick="delAll()">DELETE ALL</button>
+            <br>
+            TODO ITEMS: <small id="items"> </small>
+        </div>
+    </div>
+    <div class="container">
+
+        <ul id="todoList">
+
+        </ul>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.jsF"></script>
+<script src="app.js"></script>
+
+</html>
