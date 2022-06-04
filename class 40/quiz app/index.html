@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="setQuestion()">
+
+    <h2>QUIZ APP</h2>
+    <div class="mainBox" id="quizBox">
+        <div class="header">
+            <h1 id="htmlQuestion">QUESTION # 1</h1>
+        </div>
+        <div class="body">
+
+            <ul>
+                <li onclick="checkAns(this)" class="htmlOptionList" s>OPTION 1</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 2</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 3</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 4</li>
+            </ul>
+
+        </div>
+        <div class="bottom">
+            <span id="counterValue"> 1 / 7</span>
+            <button class="hide" id="nextQuesBtn" onclick="nextQes()">NEXT QUES</button>
+        </div>
+    </div>
+    <div>
+        <h1 class="hide" id="resultValue">RESULT : </h1>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
